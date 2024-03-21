@@ -1,19 +1,19 @@
 import logo from "../../images/framelogo.png";
-import "./Navbar.css";
+import { Button, Nav, ImageLogo, InputSpace } from "./NavbarStyled";
 
 export function Navbar(){
     return(
         <>
-            <nav>
-                <div className="input-search-space">
+            <Nav>
+                <InputSpace>
                     <i className="bi bi-search"></i>
                     <input type="text" placeholder="Search for a title"/>
-                </div>
+                </InputSpace>
 
-                <img src={logo} alt="Logo" />
+                <ImageLogo src={logo} alt="Logo" />
 
-                <button>SIGNIN</button>
-            </nav>
+                <Button>SIGNIN</Button>
+            </Nav>
         </>
     )
 }
