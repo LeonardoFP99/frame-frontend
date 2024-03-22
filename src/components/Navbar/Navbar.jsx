@@ -1,5 +1,5 @@
 import logo from "../../images/framelogo.png";
-import { Button, Nav, ImageLogo, InputSpace } from "./NavbarStyled";
+import { Button, Nav, ImageLogo, InputSpace } from "./NavbarStyle";
 
 export function Navbar(){
     return(
